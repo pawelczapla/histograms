@@ -139,14 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\Histogramy\BmpReader.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Histogramy\Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\Histogramy\BmpReader.h" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="..\assets\image.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BmpReader.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BmpReader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
